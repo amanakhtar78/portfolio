@@ -1,4 +1,6 @@
 import React from "react";
+import "../Css/Home.css";
+
 import Navbar from "./Navbar";
 import Header from "./Header";
 import Education from "./Education";
@@ -9,11 +11,18 @@ import Certifications from "./Certifications";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Interests from "./Interests";
+
 const Home = () => {
   return (
     <div>
-      <Navbar />
-      <Header />
+      <header className="header__home__page">
+        <nav className="nav__for__home">
+          <div>
+            <Navbar />
+          </div>
+        </nav>
+        <Header />
+      </header>
       <Education />
       <Coursework />
       <Skills />
