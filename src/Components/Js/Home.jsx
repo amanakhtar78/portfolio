@@ -23,14 +23,16 @@ const Home = () => {
         </nav>
         <Header />
       </header>
-      <Education />
-      <Coursework />
+
       <Skills />
-      <Links />
-      <Certifications />
-      <Experience />
-      <Projects />
+
       <Interests />
+      <Projects />
+      <Links />
+      {/* <Education />
+      <Coursework />
+
+      <Certifications /> */}
     </div>
   );
 };

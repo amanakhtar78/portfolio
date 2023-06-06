@@ -1,0 +1,90 @@
+.main__for__techno {
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.section__detail {
+  line-height: 2;
+}
+.card__swipe {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-container {
+  height: 300px;
+  perspective: 100px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease-in-out;
+}
+.card-container:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  margin-left: 50px;
+  width: 300px;
+  height: 200px;
+  background-color: #c5eef8;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateX(0);
+  transform-origin: center;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+.card:hover {
+  width: 300px;
+  height: 200px;
+  background-color: #f0f0f0;
+  /* border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateX(0);
+  transform-origin: center; */
+  /* transition: opacity 3s ease-in-out, transform 3s ease-in-out; */
+}
+
+.card.active {
+  opacity: 1;
+  transform: rotateX(0);
+}
+
+.card.next {
+  opacity: 1;
+  transform: rotateX(360deg);
+}
+
+/* h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+} */
+
+.aside__card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
