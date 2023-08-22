@@ -37,18 +37,24 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="hover-underline-animation">
-              <Link to="/about" onClick={toggleMenu}>
+              <Link to="/" onClick={toggleMenu}>
                 About
               </Link>
             </li>
             <li className=" hover-underline-animation">
-              <Link to="/projects" onClick={toggleMenu}>
+              <Link to="/" onClick={toggleMenu}>
                 Projects
               </Link>
             </li>
             <li>
-              <Link to="/contact" onClick={toggleMenu}>
-                <p className="span__contact "> Contact</p>
+              <Link to="/" onClick={toggleMenu}>
+                <p
+                  className="button__hire "
+                  style={{ padding: "7px", margin: "0px" }}
+                >
+                  {" "}
+                  Contact
+                </p>
               </Link>
             </li>
           </ul>

@@ -11,28 +11,30 @@ import Certifications from "./Certifications";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Interests from "./Interests";
+import Footer from "./Footer";
+import Test from "./Test";
 
 const Home = () => {
   return (
     <div>
-      <header className="header__home__page">
-        <nav className="nav__for__home">
-          <div>
-            <Navbar />
-          </div>
-        </nav>
-        <Header />
-      </header>
+      <nav className="nav__for__home">
+        <div>
+          <Navbar />
+        </div>
+      </nav>
+      <Header />
 
       <Skills />
 
       <Interests />
       <Projects />
       <Links />
+      {/* <Test /> */}
       {/* <Education />
       <Coursework />
 
       <Certifications /> */}
+      <Footer />
     </div>
   );
 };

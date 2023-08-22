@@ -12,6 +12,8 @@ import Projects from "./Components/Js/Projects";
 import Interests from "./Components/Js/Interests";
 import Navbar from "./Components/Js/Navbar";
 import Header from "./Components/Js/Header";
+import Footer from "./Components/Js/Footer";
+import Test from "./Components/Js/Test";
 
 function App() {
   return (
@@ -28,7 +30,9 @@ function App() {
           <Route path="/experience" component={Experience} />
           <Route path="/projects" component={Projects} />
           <Route path="/interests" component={Interests} />
-          <Route path="/Navbar" component={Navbar} />
+          <Route path="/navbar" component={Navbar} />
+          <Route path="/footer" component={Footer} />
+          <Route path="/test" component={Test} />
         </Routes>
       </Router>
     </div>

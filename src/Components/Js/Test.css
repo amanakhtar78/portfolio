@@ -1,0 +1,229 @@
+.test__page {
+  min-height: 100vh;
+}
+.main__divider {
+  display: flex;
+}
+.navbar__farma {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 2px rgb(96, 96, 241);
+  border-bottom: solid 1px rgb(147, 147, 151);
+  font-weight: 700;
+  color: rgb(96, 96, 241);
+}
+.bill__doc {
+  margin-right: 20px;
+  font-size: larger;
+}
+.nav__first__link {
+  display: inline-block;
+  width: auto;
+  margin: 20px;
+  transition: all 1s ease-in-out;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+.nav__first__link:hover {
+  display: inline-block;
+  width: auto;
+  margin: 20px;
+  background-color: rgb(96, 96, 241);
+  color: white;
+
+  border-radius: 5px 5px 0px 0px;
+}
+
+.unit__mapp {
+  width: 80%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.unit__mapp > div {
+  height: 60px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: underline;
+  color: rgb(96, 96, 241);
+  border: solid 1px grey;
+  padding: 10px;
+}
+
+.color__green {
+  margin-left: 10px;
+  color: rgb(5, 151, 0);
+  font-weight: 600;
+}
+
+.table__for__all_Unit > tr > th {
+  text-align: left;
+}
+.tower {
+  margin-left: 10px;
+}
+.table__for__all_Unit > tr > td > select {
+  width: 300px;
+  height: 30px;
+
+  margin: 0px 10px;
+}
+.input__width {
+  width: 300px;
+  height: 30px;
+
+  margin: 10px 10px;
+}
+.checkbox__h5 {
+  display: flex;
+
+  margin: 0px 10px;
+}
+.checkbox__h5 > input {
+  margin-right: 10px;
+}
+
+.unit__active__reading {
+  width: 60%;
+}
+
+.billing__table__head {
+  margin: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+}
+.billing__table {
+  border: solid 1px black;
+  border-radius: 5px;
+}
+.billing__table > tr > td {
+  width: 400px;
+  height: 30px;
+  border-bottom: 1px solid;
+}
+.billing__table > tr > th {
+  height: 40px;
+  color: rgb(97, 97, 246);
+  border-bottom: 1px solid black;
+  font-size: larger;
+}
+.billing__table > tr > td:first-child {
+  font-weight: 600;
+}
+
+.end__section {
+  margin: 100px 10px;
+
+  height: 300px;
+
+  align-items: flex-end;
+}
+.end__section__aside {
+  display: flex;
+}
+.end__section__aside > div:first-child {
+  width: 55%;
+}
+.span__style1 > span,
+.span__style2 > span {
+  display: inline-block;
+  border: 1px solid black;
+}
+.span__style1 > span:first-child {
+  background-color: rgb(190, 4, 4);
+  color: white;
+  padding: 10px 60px;
+  border-radius: 3px 0px 0px 3px;
+}
+.span__style1 > span:nth-child(2) {
+  background-color: rgb(96, 96, 241);
+  color: white;
+
+  padding: 10px 20px;
+}
+.span__style1 > span:nth-child(3) {
+  color: white;
+
+  padding: 10px 20px;
+}
+.span__style1 > span:nth-child(4) {
+  background-color: rgb(96, 96, 241);
+  color: white;
+
+  padding: 10px 20px;
+}
+.span__style1 > span:nth-child(5) {
+  color: white;
+
+  padding: 10px 20px;
+}
+.span__style2 > span:first-child {
+  background-color: rgb(96, 96, 241);
+  color: white;
+
+  padding: 10px 20px;
+}
+.span__style2 > span:nth-child(2) {
+  background-color: white;
+  color: white;
+
+  padding: 10px 20px;
+}
+.span__style2 > span:nth-child(3) {
+  color: white;
+
+  padding: 10px 20px;
+}
+.span__style2 > span:nth-child(4) {
+  background-color: rgb(96, 96, 241);
+  color: white;
+
+  padding: 10px 20px;
+}
+.span__style2 > span:nth-child(5) {
+  color: white;
+
+  padding: 10px 20px;
+}
+.icon__test {
+  display: inline-block;
+  color: rgb(96, 96, 241);
+  font-size: larger;
+  position: relative;
+  top: 3px;
+}
+.icon__test:hover {
+  display: inline-block;
+  color: white;
+  font-size: larger;
+  position: relative;
+  top: 3px;
+}
+.icon__test2 {
+  display: inline-block;
+  color: rgb(96, 96, 241);
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+}
+.icon__test2:hover {
+  display: inline-block;
+  color: rgb(249, 249, 254);
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.icon__test5 {
+  color: rgb(96, 96, 241);
+}

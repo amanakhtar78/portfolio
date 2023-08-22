@@ -1,12 +1,10 @@
 .header__detail {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   align-items: center;
 }
-.header__detail {
-  line-height: 150%;
-}
+
 .sec1__detail {
   width: 50%;
 }
@@ -50,12 +48,12 @@
   position: relative;
   top: 25px;
   width: 50%;
-  height: 84vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: end;
   overflow: hidden;
-  background: url(../Image/image0__2_-removebg-preview.png) no-repeat 90px 50px;
+  background: url(../Image/image0__2_-removebg-preview.png) no-repeat 70px 50px;
   transition: 1s ease;
 }
 .section2__img:hover {
@@ -98,4 +96,105 @@ a {
 }
 a:hover {
   transform: scale(1.2);
+}
+.img__coding {
+  display: none;
+}
+@media only screen and (max-width: 700px) {
+  .header__detail {
+    display: block;
+    min-height: 100vh;
+  }
+  .sec1__detail {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img__coding {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+  }
+  .section2__img {
+    height: auto;
+    display: none;
+  }
+
+  /* .section2__img:hover {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+    background: none;
+    transition: 1s ease-in-out;
+  } */
+  .imgbox {
+    height: auto;
+    position: relative;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    transition: 1s ease;
+  }
+  .section2__img {
+    display: none;
+  }
+  .section2__img:hover {
+    display: none;
+  }
+  .header__home__page {
+    min-height: 150vh;
+  }
+  .for_skill {
+    width: 100%;
+  }
+  .span__name {
+    color: #11b33c;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .section2__img {
+    position: relative;
+    /* top: 25px; */
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: url(../Image/image0__2_-removebg-preview.png) no-repeat
+      no-repeat 100px 110px;
+    transition: 1s ease;
+  }
+  .section2__img:hover {
+    position: relative;
+    /* top: 25px; */
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: url(../Image/image0__2_-removebg-preview.png) no-repeat 20px
+      20px;
+
+    transition: 1s ease;
+  }
+  /* .section2__img:hover {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+  } */
 }

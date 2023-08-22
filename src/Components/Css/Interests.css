@@ -32,7 +32,7 @@
   margin-left: 50px;
   width: 300px;
   height: 200px;
-  background-color: #c5eef8;
+  background-color: #dff4f9;
   border-radius: 8px;
   padding: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -87,4 +87,35 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .main__for__techno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__for__techno > section > img {
+    height: auto;
+    width: 100%;
+  }
+  .section__detail {
+    width: 95%;
+    line-height: 1.5;
+  }
+  .card__swipe {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    justify-content: space-around;
+  }
+  .card {
+    margin-left: 0px;
+  }
+  .card-container {
+    width: 300px;
+    height: 220px;
+    margin-top: 10px;
+  }
 }

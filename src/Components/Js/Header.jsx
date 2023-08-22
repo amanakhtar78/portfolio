@@ -3,6 +3,7 @@ import "../Css/Header.css";
 import ProfileImg from "../Image/pro2.png";
 import img1 from "../Image/img3.png";
 import img2 from "../Image/img7.png";
+import cooding from "../Image/coding.jpg";
 import {
   FaGithub,
   FaLinkedin,
@@ -17,7 +18,7 @@ const Header = () => {
         <section className="sec1__detail">
           <div>
             <h1>
-              Hi, I'm <span className="span__name"> Aman V </span>
+              Hi, I'm <span className="span__name"> Aman </span>
             </h1>
             <h4>Full Stack Developer</h4>
             <p>
@@ -52,11 +53,15 @@ const Header = () => {
               {/* <SiCodechef /> */}
             </aside>
           </div>
+          <section className="img__coding">
+            <img src={cooding} alt="" height={300} width={300} />
+          </section>
         </section>
+
         <section className="section2__img">
           <div className="imgdata">
             <div className="imgbox">
-              <img src={ProfileImg} alt="" width="350" height="560" />
+              <img src={ProfileImg} alt="" width="300" height="500" />
             </div>
           </div>
         </section>

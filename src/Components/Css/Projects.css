@@ -51,3 +51,32 @@
   width: 50%;
   line-height: 2;
 }
+
+@media only screen and (max-width: 900px) {
+  .project_main {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .project_main > section > img {
+    height: auto;
+    width: 100%;
+  }
+  .project__para {
+    width: 95%;
+  }
+  .project-cards {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-card {
+    height: 400px;
+    width: 300px;
+  }
+}

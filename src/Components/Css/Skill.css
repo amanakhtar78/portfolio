@@ -77,3 +77,79 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+@media only screen and (max-width: 1000px) {
+  .font__article {
+    display: flex;
+    font-size: 40px;
+  }
+  /* .font__article > div {
+    width: 100px;
+    margin: 20px;
+  } */
+}
+
+@media only screen and (max-width: 900px) {
+  .for_skill {
+    width: 98%;
+    min-height: 50vh;
+  }
+  .font__article {
+    display: flex;
+    font-size: 50px;
+    margin: 20px;
+  }
+  .font__article > div {
+    width: 100px;
+    margin: 30px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .for_skill {
+    width: 98%;
+    min-height: 50vh;
+  }
+  .font__article {
+    display: flex;
+    font-size: 40px;
+    margin: 10px;
+  }
+  .font__article > div {
+    width: 100px;
+    margin: 20px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .for_skill {
+    width: 98%;
+    min-height: 80vh;
+  }
+  .font__article {
+    display: flex;
+  }
+  .font__article > div {
+    width: 100px;
+    margin: 5px;
+  }
+  .font__article > div > p {
+    font-size: medium;
+  }
+}
+/* @media only screen and (min-width: 1380px) {
+  .for_skill {
+    width: 98%;
+    min-height: 60vh;
+  }
+  .font__article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .font__article > div {
+    width: 300px;
+    margin: 25px;
+  }
+  .font__article > div > p {
+    font-size: large;
+  }
+} */

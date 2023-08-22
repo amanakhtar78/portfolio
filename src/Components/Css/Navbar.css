@@ -15,7 +15,7 @@
   background-color: #ffffff;
   color: #000000;
   transition: all 0.3s ease;
-  box-shadow: 10px 15px 20px -20px black;
+  box-shadow: 5px 15px 30px -15px black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -94,10 +94,10 @@
 @media (max-width: 768px) {
   .nav__align {
     height: inherit;
-    display: block;
+    display: flex;
     position: relative;
     top: 10px;
-    left: 10px;
+
     /* align-items: center;
     justify-content: center; */
   }
@@ -121,7 +121,7 @@
     cursor: pointer;
     padding: 10px;
     align-self: flex-end;
-    transition: transform 0.3s ease;
+    transition: transform 0.8s ease;
   }
 
   .navbar-toggle.open {
@@ -132,7 +132,7 @@
     height: 3px;
     background-color: #fff;
     margin: 3px 0;
-    transition: background-color 0.3s ease;
+    transition: background-color 1s ease;
   }
 
   .navbar-menu {
@@ -143,17 +143,20 @@
 
   .navbar-menu.open {
     max-height: 500px; /* Adjust this value as needed */
-    transition: max-height 0.5s ease-in-out;
+    transition: max-height 1s ease-in-out;
   }
 
   .navbar-links {
     flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    margin-left: 10px;
     opacity: 0;
   }
 
   .navbar-menu.open .navbar-links {
     opacity: 1;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 1s ease-in-out;
   }
 
   .navbar-links li {
