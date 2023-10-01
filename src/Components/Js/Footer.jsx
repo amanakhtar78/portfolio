@@ -20,13 +20,13 @@ const Footer = () => {
           <div className="footer__link">
             <ul className="footer-links">
               <li>
-                <a href="/">Home</a>
+                <a href="#header">Home</a>
               </li>
               <li>
-                <a href="/about">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="/contact">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
               <li>
                 <a href="https://www.freepik.com/free-vector/mobile-login-concept-illustration_5202813.htm#query=login%20green&position=6&from_view=search&track=ais">
@@ -65,12 +65,9 @@ const Footer = () => {
         <p className="para__footer">
           The content, graphics, design elements, and other materials on this
           website are protected by copyright laws and international treaties.
-          Unauthorized use, reproduction, distribution, or modification of any
-          part of this website, without the prior written consent of the author,
-          is strictly prohibited.
         </p>
       </footer>
-      <Link to="/education">education</Link>
+
       <p className="last__fotter__line">
         &copy; {currentYear} Your Company. All rights reserved.
       </p>

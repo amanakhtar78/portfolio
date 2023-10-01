@@ -29,7 +29,7 @@
 
 .footer-links a {
   color: #333;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .footer-links a:hover {
@@ -49,7 +49,7 @@
   .footer {
     display: flex;
     flex-wrap: wrap;
-    min-height: 50vh;
+    min-height: 40vh;
     justify-content: flex-start;
   }
   .para__footer {

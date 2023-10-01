@@ -34,7 +34,7 @@ const Interests = () => {
   }, []);
 
   return (
-    <div>
+    <div id="about">
       <main className="main__for__techno">
         <section>
           <img src={Stylish} alt="" height={500} width={550} />
@@ -45,16 +45,20 @@ const Interests = () => {
             In the realm of technology, my skills span across UI/UX design, full
             stack web development using React, and competitive programming on
             CodeChef, where I proudly hold the distinction of being a 3-star
-            coder. With a keen eye for aesthetics and user-centered design, I
-            create engaging and intuitive user interfaces. On the development
-            front, I excel in building dynamic and responsive web applications,
-            leveraging the power of React and embracing the full stack approach.
-            Furthermore, my passion for problem-solving shines through in the
-            realm of competitive programming, where I continuously challenge
-            myself to solve algorithmic puzzles and find efficient solutions.
-            This combination of skills allows me to deliver exceptional user
-            experiences while embracing the power of technology to tackle
-            complex challenges.
+            coder.{" "}
+            <span className="for__small__device">
+              {" "}
+              With a keen eye for aesthetics and user-centered design, I create
+              engaging and intuitive user interfaces. On the development front,
+              I excel in building dynamic and responsive web applications,
+              leveraging the power of React and embracing the full stack
+              approach. Furthermore, my passion for problem-solving shines
+              through in the realm of competitive programming, where I
+              continuously challenge myself to solve algorithmic puzzles and
+              find efficient solutions. This combination of skills allows me to
+              deliver exceptional user experiences while embracing the power of
+              technology to tackle complex challenges.
+            </span>
           </p>
         </section>
       </main>

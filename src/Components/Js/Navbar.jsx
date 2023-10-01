@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="nav__align">
+    <header className="nav__align" id="header">
       <nav className={`navbar ${isMenuOpen ? "open" : ""}`}>
         <header className="logo__button">
           <div className="navbar-brand">
@@ -32,19 +32,19 @@ const Navbar = () => {
         <div className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
           <ul className="navbar-links ">
             <li className=" hover-underline-animation">
-              <Link to="/" onClick={toggleMenu}>
+              <a href="#header" onClick={toggleMenu}>
                 Home
-              </Link>
+              </a>
             </li>
             <li className="hover-underline-animation">
-              <Link to="/" onClick={toggleMenu}>
+              <a href="#about" onClick={toggleMenu}>
                 About
-              </Link>
+              </a>
             </li>
             <li className=" hover-underline-animation">
-              <Link to="/" onClick={toggleMenu}>
+              <a href="#project" onClick={toggleMenu}>
                 Projects
-              </Link>
+              </a>
             </li>
             <li>
               <Link to="/" onClick={toggleMenu}>

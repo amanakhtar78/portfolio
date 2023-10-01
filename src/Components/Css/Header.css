@@ -103,7 +103,7 @@ a:hover {
 @media only screen and (max-width: 700px) {
   .header__detail {
     display: block;
-    min-height: 100vh;
+    height: auto;
   }
   .sec1__detail {
     width: 100%;

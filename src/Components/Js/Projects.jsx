@@ -56,7 +56,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="project-section">
+    <section className="project-section" id="project">
       <main className="project_main">
         <section className="project__para">
           <h2>A Collection of Impressive and Memorable Projects</h2>
@@ -67,7 +67,7 @@ const Projects = () => {
             I have applied my knowledge and creativity to deliver outstanding
             results.
           </p>
-          <p>
+          <p className="for__small__device">
             I invite you to explore these projects to get a glimpse of my
             skills, passion, and dedication. Feel free to browse through the
             project cards, each featuring an image, a brief project title, and a

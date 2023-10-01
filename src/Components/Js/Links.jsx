@@ -30,7 +30,7 @@ const Links = () => {
   };
 
   return (
-    <div className="contact__form">
+    <div className="contact__form" id="contact">
       <section>
         <form className="contact-form" onSubmit={handleSubmit}>
           <h2 className="form-heading">Contact Us</h2>

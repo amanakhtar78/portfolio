@@ -79,4 +79,7 @@
     height: 400px;
     width: 300px;
   }
+  .for__small__device {
+    display: none;
+  }
 }
