@@ -158,7 +158,7 @@ const Test = () => {
               </tr>
               <tr>
                 <td>Consider meter reading FROM | To</td>
-                <td>01 Nov 2021 | 30 Nov 2021</td>
+                <td>01 Nov 2021 | 30 Nov 2021 ||new</td>
               </tr>
               <tr>
                 <td></td>
